@@ -1,0 +1,40 @@
+body{
+    background-color: #343D4B;
+}
+.firstBack {
+    width: 200px;
+    color: #fff;
+    display: inline-flex;
+    
+}
+
+.top-left{
+    position: absolute;
+    top: 48px;
+    left: 32px;
+     
+}
+
+.tuesday{
+    font-size: 37px;
+    font-weight: 600;
+    
+}
+
+.date{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.location {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.secondBack{
+    background-color:#88EBEFE5, #535BE6E5 ;
+    width: 20px;
+    color: #fff;
+    
+}
