@@ -1,40 +1,86 @@
 body{
     background-color: #343D4B;
 }
+.hback {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 188px;
+    padding-bottom: 170px;
+}
+.himage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .firstBack {
     width: 200px;
     color: #fff;
     display: inline-flex;
-    
+    position: relative;
+    min-width: 450px; /* Learn */
 }
-
 .top-left{
-    position: absolute;
-    top: 48px;
-    left: 32px;
-     
+    
+    z-index: 1; /* Learn */
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; /* Learn */
+    align-items: flex-start; /* Learn */
+    padding: 32px; /* Learn */
+   
 }
 
 .tuesday{
     font-size: 37px;
-    font-weight: 600;
-    
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto auto 16px;
 }
-
 .date{
     font-size: 22px;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto auto 13px;
 }
-
+.loc-icon {
+    margin: 13px auto auto;
+    display: flex;
+}
 .location {
-    color: white;
     font-size: 20px;
     font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 8px auto;
 }
 .secondBack{
     background-color:#88EBEFE5, #535BE6E5 ;
     width: 20px;
     color: #fff;
-    
+}
+.Sun {
+    margin-top: 200px;
+    top: 375px;
+    left: auto;
+}
+.Cels {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 9px auto auto;
+}
+.weather{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    margin: 13px auto auto;
+}
+.lback {
+    position: relative;
+    background-color: #222831;
+    width: 944px;
+    height: 623px;
+    border-radius: 25px;
+    z-index: -1;
+    padding-top: ;
 }
