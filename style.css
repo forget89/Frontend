@@ -1,5 +1,6 @@
 body{
     background-color: #343D4B;
+    font-family: 'Montserrat', sans-serif;
 }
 .hback {
     display: flex;
@@ -21,26 +22,21 @@ body{
     min-width: 450px; /* Learn */
 }
 .top-left{
-    
     z-index: 1; /* Learn */
     display: flex; 
     flex-direction: column;
     justify-content: space-between; /* Learn */
     align-items: flex-start; /* Learn */
     padding: 32px; /* Learn */
-   
 }
-
 .tuesday{
     font-size: 37px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
     margin: auto auto 16px;
 }
 .date{
     font-size: 22px;
     font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
     margin: auto auto 13px;
 }
 .loc-icon {
@@ -50,7 +46,6 @@ body{
 .location {
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Montserrat', sans-serif;
     margin: auto 8px auto;
 }
 .secondBack{
@@ -64,13 +59,11 @@ body{
     left: auto;
 }
 .Cels {
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 700;
     margin: 9px auto auto;
 }
 .weather{
-    font-family: 'Montserrat', sans-serif;
     font-size: 29px;
     font-weight: 700;
     margin: 13px auto auto;
@@ -82,5 +75,5 @@ body{
     height: 623px;
     border-radius: 25px;
     z-index: -1;
-    padding-top: ;
+   
 }
