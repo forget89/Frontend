@@ -67,9 +67,195 @@ body{
     font-weight: 700;
     margin: 13px auto auto;
 }
+
+/* SECOND INFO*/
+/* UP */
+.main{
+    display: flex;
+    flex-direction: column;
+}
 .lback {
     position: relative;
     background-color: #222831;
     border-radius: 0 25px 25px 0;
     padding: 48px;
+}
+.firstinfo{
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    justify-content: space-between;  
+}
+.secondinfo{
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    justify-content: space-between;
+    
+}
+.thirdinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.type{
+    color: #fff;
+    text-align: left;
+    font-weight: 700;
+}
+.measure{
+    color: #fff;
+    text-align: right;
+    font-weight: 500;
+}
+
+/* AVERAGE */
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.Card{
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 1px 2px 4px 0px #222831;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 15px;
+}
+
+.firstIconSun{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.mainTextFirst{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    
+    justify-content: center;
+    
+}
+
+.subTextFirst{
+    color: #000;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;    
+}
+
+.ACard{
+    border-radius: 10px;
+    background: #272E37;
+    box-shadow: 1px 2px 4px 0px #222831;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 15px;
+}
+
+.SecondIconCloud{
+    
+    display: flex;
+    justify-content: center;
+}
+.mainTextSecond{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+.subTextSecond{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+.ThirdIconRainy{
+    
+    display: flex;
+    justify-content: center;
+}
+.mainTextThird{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+.subTextThird{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+.FourIconSun{
+    display: flex;
+    justify-content: center;
+}
+
+.mainTextFour{
+    
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;   
+}
+.subTextFour{
+    
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+/* BOTTOM */
+
+.note{
+    margin-top: 200px;
+    width: 415px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+}
+
+.tapme{
+    display: flex;
+    justify-content: center;
+}
+.gps{
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.textlocation{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 14px;
 }
