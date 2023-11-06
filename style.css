@@ -73,12 +73,14 @@ body{
 .main{
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
+    line-height: 0;
 }
 .lback {
     position: relative;
     background-color: #222831;
     border-radius: 0 25px 25px 0;
-    padding: 48px;
+    padding: 55px;
 }
 .firstinfo{
     display: flex;
@@ -101,12 +103,12 @@ body{
 }
 .type{
     color: #fff;
-    text-align: left;
+    
     font-weight: 700;
 }
 .measure{
     color: #fff;
-    text-align: right;
+    
     font-weight: 500;
 }
 
@@ -116,9 +118,12 @@ body{
     display: flex;
     flex-direction: row;
     color: #fff;
+    justify-content: center;
 }
 
 .Card{
+    width: 104px;
+    height: 128px;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 1px 2px 4px 0px #222831;
@@ -126,7 +131,8 @@ body{
     flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     gap: 15px;
 }
 
@@ -142,7 +148,6 @@ body{
     font-size: 20px;
     font-weight: 400;
     
-    justify-content: center;
     
 }
 
@@ -157,6 +162,8 @@ body{
 }
 
 .ACard{
+    width: 104px;
+    height: 128px;
     border-radius: 10px;
     background: #272E37;
     box-shadow: 1px 2px 4px 0px #222831;
@@ -164,7 +171,8 @@ body{
     flex-shrink: 0;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     gap: 15px;
 }
 
@@ -237,7 +245,7 @@ body{
 /* BOTTOM */
 
 .note{
-    margin-top: 200px;
+    margin-top: 72px;
     width: 415px;
     height: 53px;
     flex-shrink: 0;
