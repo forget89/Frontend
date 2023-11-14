@@ -2,26 +2,26 @@ body{
     background-color: #343D4B;
     font-family: 'Montserrat', sans-serif;
 }
-.hback {
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
-.himage{
+.left-plate__background-image{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.firstBack {
+.content__left-plate {
     color: #fff;
     display: inline-flex;
     position: relative;
     min-width: 500px; 
     min-height: 700px;
 }
-.top-left{
+.left-plate__text{
     z-index: 1; 
     display: flex; 
     flex-direction: column;
@@ -31,40 +31,40 @@ body{
     padding-left: 32px;
     padding-bottom: 84px
 }
-.tuesday{
+.text__header{
     font-size: 37px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.date{
+.text__sub1{
     font-size: 22px;
     font-weight: 500;
-    
 }
-.loc-icon {
+.text__sub2-icon {
     margin: 15px auto auto;
     display: flex;
 }
-.location {
+.text__sub2 {
     font-size: 20px;
     font-weight: 600;
     margin: auto 8px auto;
 }
-.secondBack{
+
+/* .secondBack{
     background-color:#88EBEFE5, #535BE6E5 ;
     width: 20px;
     color: #fff;
-}
-.Sun {
+}*/
+
+.text__sub3-icon {
     margin-top: 200px;
-    
 }
-.Cels {
+.text__sub4 {
     font-size: 50px;
     font-weight: 700;
     margin: 9px auto auto;
 }
-.weather{
+.text__footer{
     font-size: 29px;
     font-weight: 700;
     margin: 13px auto auto;
@@ -72,83 +72,48 @@ body{
 
 /* SECOND INFO*/
 /* UP */
+
 p{
     margin: 16px 0 0 0;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 80px;
-    
-}
-.lback {
+
+.content__right-plate {
     position: relative;
     background-color: #222831;
     border-radius: 0 25px 25px 0;
     padding: 55px;
 }
-.inform{
+.right-plate__list{
     display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
     
+}
+.list__element{
+    display: flex;
     font-size: 28px;
     justify-content: space-between;  
 }
-.type{
+.element__main{
     color: #fff;
     font-weight: 700;
 }
-.measure{
+.element__measure{
     color: #fff;
     font-weight: 500;
 }
 
 /* AVERAGE */
 
-.sub{
+.right-plate__sub-elements{
     display: flex;
     flex-direction: row;
     color: #fff;
     justify-content: center;
-    
 }
 
-
-.Card{
-    border-radius: 10px;
-    background: #FFF;
-    box-shadow: 1px 2px 4px 0px #222831;
-    display: flex;
-    flex-shrink: 0;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 25px;
-    gap: 15px;
-}
-
-.firstIconSun{
-    display: flex;
-    justify-content: center;
-}
-
-.mainTextFirst{
-    color: #000;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.subTextFirst{
-    color: #000;
-    text-align: right;
-    font-size: 20px;
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-    flex-shrink: 0;    
-}
-
-.ACard{
+.sub-elements__card{
     border-radius: 10px;
     background: #272E37;
     box-shadow: 1px 2px 4px 0px #222831;
@@ -159,13 +124,59 @@ p{
     padding: 25px;
     gap: 15px;
 }
+.card--active{
+    background-color: #fff;
+    color: #000;
+}
 
-.SecondIconCloud{
+.card__icon1{
     display: flex;
     justify-content: center;
 }
 
-.mainTextSecond{
+.card__header1{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card__subtitle1{
+    color: #000;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;    
+}
+
+.card__icon2{
+    display: flex;
+    justify-content: center;
+}
+
+.card__header2{
+    display: flex;
+    justify-content: center;
+  
+    font-size: 20px;
+    font-weight: 400;
+    flex-shrink: 0;
+}
+.card__subtitle2{
+    display: flex;
+    justify-content: center;
+
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+.card__icon3{
+    display: flex;
+    justify-content: center;
+}
+.card__header3{
     display: flex;
     justify-content: center;
     color: #FFF;
@@ -173,7 +184,7 @@ p{
     font-weight: 400;
     flex-shrink: 0;
 }
-.subTextSecond{
+.card__subtitle3{
     display: flex;
     justify-content: center;
     color: #FFF;
@@ -181,33 +192,12 @@ p{
     font-weight: 700;
     flex-shrink: 0;
 }
-.ThirdIconRainy{
-    
-    display: flex;
-    justify-content: center;
-}
-.mainTextThird{
-    display: flex;
-    justify-content: center;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 400;
-    flex-shrink: 0;
-}
-.subTextThird{
-    display: flex;
-    justify-content: center;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    flex-shrink: 0;
-}
-.FourIconSun{
+.card__icon4{
     display: flex;
     justify-content: center;
 }
 
-.mainTextFour{
+.card__header4{
     
     display: flex;
     justify-content: center;
@@ -216,7 +206,7 @@ p{
     font-size: 20px;
     font-weight: 400;   
 }
-.subTextFour{
+.card__subtitle4{
     
     display: flex;
     justify-content: center;
@@ -228,7 +218,7 @@ p{
 
 /* BOTTOM */
 
-.note{
+.right-plate__footer{
     margin-top: 72px;
     width: 415px;
     height: 53px;
@@ -237,15 +227,15 @@ p{
     background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
 }
 
-.tapme{
+.footer__button{
     display: flex;
     justify-content: center;
 }
-.gps{
+.button__location-icon{
     margin-top: 10px;
     margin-right: 8px;
 }
-.textlocation{
+.button__location{
     color: #fff;
     font-size: 20px;
     font-weight: 600;
