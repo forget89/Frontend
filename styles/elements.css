@@ -1,0 +1,13 @@
+.list__element{
+    display: flex;
+    font-size: 28px;
+    justify-content: space-between;  
+}
+.element__main{
+    color: #fff;
+    font-weight: 700;
+}
+.element__measure{
+    color: #fff;
+    font-weight: 500;
+}

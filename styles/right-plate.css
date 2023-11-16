@@ -1,0 +1,18 @@
+.right-plate__list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.right-plate__sub-elements{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    justify-content: center;
+}
+.right-plate__footer{
+    margin-top: 72px;
+    height: 53px;
+    border-radius: 10px;
+    background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
+}
+

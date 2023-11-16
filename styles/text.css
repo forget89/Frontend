@@ -1,0 +1,33 @@
+.text__header{
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.text__sub1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text__sub2-icon {
+    margin: 15px auto auto;
+    display: flex;
+}
+.text__sub2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto 8px auto;
+}
+.text__sub3-icon {
+    margin-top: none;
+}
+
+.text__sub4 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 9px auto auto;
+}
+.text__footer{
+    font-size: 29px;
+    font-weight: 700;
+    margin: 13px auto auto;
+}
+

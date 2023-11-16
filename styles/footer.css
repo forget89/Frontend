@@ -1,0 +1,14 @@
+.footer__button{
+    display: flex;
+    justify-content: center;
+}
+.button__location-icon{
+    margin-top: 10px;
+    margin-right: 8px;
+}
+.button__location{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 14px;
+} 
