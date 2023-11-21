@@ -15,4 +15,27 @@
     border-radius: 10px;
     background: linear-gradient(91deg, rgba(144, 217, 224, 0.90) 0.2%, rgba(84, 96, 230, 0.90) 100%);
 }
+.right-plate__footer:hover {
+    background-color: white;
+}
+.right-plate__popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+.right-plate__popup.open{
+    visibility: visible;
+    opacity: 1;
+}
 
