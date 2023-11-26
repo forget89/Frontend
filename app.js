@@ -1,4 +1,7 @@
-const buttonElem = document.querySelector('.right-plate__footer');
+//buttonsday
+
+//popup
+{const buttonElem = document.querySelector('.right-plate__footer');
 const popupElem = document.querySelector('.right-plate__popup');
 
 popupElem.style.cssText = `
@@ -27,4 +30,4 @@ const openPopup = () => {
 };
 
 buttonElem.addEventListener('click', openPopup);
-popupElem.addEventListener('click', closePopup)
+popupElem.addEventListener('click', closePopup);}

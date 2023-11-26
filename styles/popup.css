@@ -33,5 +33,17 @@
     outline-color: aqua;
 }
 .popup-container__body{
+    display: grid;
+}
 
+.popup-container__day{
+    display: flex;
+    padding-top: 25px;
+    
+}
+
+.container__body-select{
+    font-size: 20px;
+    border-radius: 25px;
+    text-align-last: center
 }

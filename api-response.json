@@ -1,0 +1,131 @@
+[
+    {
+      "id": 1,
+      "name": "Biarritz",
+      "country": "FR",
+      "days": [
+        {
+          "id": 1,
+          "date": "Thu Nov 09 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 0,
+          "humidity": 42,
+          "wind": 3
+        },
+        {
+          "id": 2,
+          "date": "Thu Nov 10 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "cloudy",
+          "temperature": 24,
+          "precipitation": 5,
+          "humidity": 64,
+          "wind": 4
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 11 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "rainy",
+          "temperature": 18,
+          "precipitation": 10,
+          "humidity": 80,
+          "wind": 5
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 12 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 4,
+          "humidity": 60,
+          "wind": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Moscow",
+      "country": "RU",
+      "days": [
+        {
+          "id": 1,
+          "date": "Thu Nov 09 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 0,
+          "humidity": 42,
+          "wind": 3
+        },
+        {
+          "id": 2,
+          "date": "Thu Nov 10 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "cloudy",
+          "temperature": 24,
+          "precipitation": 5,
+          "humidity": 64,
+          "wind": 4
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 11 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "rainy",
+          "temperature": 18,
+          "precipitation": 10,
+          "humidity": 80,
+          "wind": 5
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 12 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 4,
+          "humidity": 60,
+          "wind": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "London",
+      "country": "UK",
+      "days": [
+        {
+          "id": 1,
+          "date": "Thu Nov 09 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 0,
+          "humidity": 42,
+          "wind": 3
+        },
+        {
+          "id": 2,
+          "date": "Thu Nov 10 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "cloudy",
+          "temperature": 24,
+          "precipitation": 5,
+          "humidity": 64,
+          "wind": 4
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 11 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "rainy",
+          "temperature": 18,
+          "precipitation": 10,
+          "humidity": 80,
+          "wind": 5
+        },
+        {
+          "id": 1,
+          "date": "Thu Nov 12 2023 18:21:45 GMT+0500 (Yekaterinburg Standard Time)",
+          "weather": "sunny",
+          "temperature": 29,
+          "precipitation": 4,
+          "humidity": 60,
+          "wind": 4
+        }
+      ]
+    }
+  ]
