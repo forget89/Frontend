@@ -36,9 +36,12 @@
     display: grid;
 }
 
+.popup-container__doesntwork{
+    margin-top: 35px;
+}
+
 .popup-container__day{
-    display: flex;
-    padding-top: 25px;
+    padding-top: 10px;
     
 }
 

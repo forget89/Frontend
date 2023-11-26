@@ -1,6 +1,7 @@
 .footer__button{
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 .button__location-icon{
     margin-top: 10px;
